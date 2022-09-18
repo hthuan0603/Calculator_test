@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+
+    <TextView
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:background="@color/teal_200"
+        android:textSize="50sp"
+        />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="70sp"
+        android:textAlignment="textEnd"
+        />
+
+    <LinearLayout
+        style="@style/bt"
+        android:layout_height="76dp">
+
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button_left_Bracket"
+            android:onClick="onCalculator"
+            android:text="(" />
+
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button_right_Bracket"
+            android:onClick="onCalculator"
+            android:text=")" />
+
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button_cancel"
+            android:text="C" />
+
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button_delete"
+            android:drawableBottom="@drawable/ic_baseline_backspace_24"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/bt">
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button7"
+            android:onClick="onDigital"
+            android:text="7"
+            />
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button8"
+            android:onClick="onDigital"
+            android:text="8"
+            />
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button9"
+            android:onClick="onDigital"
+            android:text="9"
+            />
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button_chia"
+            android:onClick="onCalculator"
+            android:text="÷"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/bt">
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button4"
+            android:onClick="onDigital"
+            android:text="4"
+            />
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button5"
+            android:onClick="onDigital"
+            android:text="5"
+            />
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button6"
+            android:onClick="onDigital"
+            android:text="6"
+            />
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button_nhan"
+            android:onClick="onCalculator"
+            android:text="x"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/bt">
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button1"
+            android:onClick="onDigital"
+            android:text="1"
+            />
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button2"
+            android:onClick="onDigital"
+            android:text="2"
+            />
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button3"
+            android:onClick="onDigital"
+            android:text="3"
+            />
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button_tru"
+            android:onClick="onCalculator"
+            android:text="-"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/bt">
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button0"
+            android:onClick="onDigital"
+            android:text="0"
+            />
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button_dot"
+            android:text="."
+            />
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button_equal"
+            android:text="="
+            />
+        <Button
+            style="@style/btNumber"
+            android:id="@+id/button_cong"
+            android:onClick="onCalculator"
+            android:text="+"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
